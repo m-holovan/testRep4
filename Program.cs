@@ -27,10 +27,10 @@
                 case 1:
                     Console.WriteLine("Case 1");
                     break;
-                case 2:
+                case 5:
                     Console.WriteLine("Case 2");
                     break;
-                case 3:
+                case 6:
                     Console.WriteLine("Case 3");
                     break;
             }
