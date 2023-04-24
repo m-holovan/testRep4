@@ -15,7 +15,7 @@
             //value c = a + b 
             int c = a + b;
             Console.WriteLine(c);
-
+            //user need to choice operation from 0 to 1
             Console.WriteLine("Choose operation:");
             int operation = Convert.ToInt32(Console.ReadLine());
 
