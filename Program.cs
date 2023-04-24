@@ -11,6 +11,10 @@
             //second value enter
             Console.WriteLine("Enter value b:");
             int b = Convert.ToInt32(Console.ReadLine());
+
+
+            int c = a + b;
+            Console.WriteLine(c);
         }
     }
 }
