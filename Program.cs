@@ -15,6 +15,19 @@
             //value c = a + b 
             int c = a + b;
             Console.WriteLine(c);
+
+            Console.WriteLine("Choose operation:");
+            int operation = Convert.ToInt32(Console.ReadLine());
+
+            switch (operation)
+            {
+                case 0:
+                    Console.WriteLine("Case 0");
+                    break;
+                case 1:
+                    Console.WriteLine("Case 1");
+                    break;
+            }
         }
     }
 }
